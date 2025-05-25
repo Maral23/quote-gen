@@ -10,7 +10,7 @@ if (!SECRET_KEY) throw new Error('JWT_SECRET is not set');
 const HARDCODED_USER = {
   id: 1,
   username: 'user',
-  password: '$2b$10$JP7qGBaSDs5EPPzGjA.KieK/A0UPDugR1KC4n4sNaxtvvb7a6iSJG'
+  password: '$2b$10$prTng6oL4UYHD6PhYKUqsOT/39BNuiO.Kr.mVIunLzJ3XMChZreKa'
 };
 
 
