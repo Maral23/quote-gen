@@ -1,7 +1,8 @@
 import { json } from '@sveltejs/kit';
 import jwt from 'jsonwebtoken';
 import type { RequestHandler } from './$types';
-import bcrypt from 'bcrypt';
+// import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 
 
 const SECRET_KEY = process.env.JWT_SECRET;
